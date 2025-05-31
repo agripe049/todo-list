@@ -1,0 +1,127 @@
+.container {
+    max-width: 480px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #eae1e1a8;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 33px;
+}
+
+.inputGroup {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.input {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 18px;
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid #4caf50;
+  box-shadow: 0 0 6px rgba(76, 175, 79, 0.232);
+}
+
+.adicionarBtn {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #4caf50;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.adicionarBtn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #39b13d;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.texto {
+    word-break: break-word;
+    /* quebra palavras longas */
+    white-space: normal;
+    /* permite quebra de linha */
+    overflow-wrap: break-word;
+    /* garante compatibilidade */
+}
+
+.botoes {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.salvarBtn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    margin-left: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.salvarBtn:hover {
+    transform: scale(1.05);
+}
+
+.editarBtn {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.editarBtn:hover {
+    transform: scale(1.05);
+}
+
+.removerBtn {
+    background-color: #f44336;
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: .2s;
+}
+
+.removerBtn:hover {
+    transform: scale(1.05);
+}
+
+span{
+    font-size: 18px;
+}
